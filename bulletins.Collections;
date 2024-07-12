@@ -1,0 +1,28 @@
+using System.Collections;
+
+using System.Collections.Generic; using UnityEngine;
+
+public class ChangeColor: MonoBehaviour
+{
+public Color[] colors;
+
+public Renderer[] mats;
+
+public void Red()
+{
+for (int i=0; i < mats.Length; i++) mats[i].material.color colors[e];
+}
+public void Black()
+
+{
+
+for (int 10; i < mats.Length; i++) mats[i].material.color colors[1];
+}
+public void Blue()
+{
+for (int 10; i < mats.Length; i++) mats[i].material.color colors[2];
+}
+public void vellow()
+{
+for (int 10; 1 < mats.Length; i++) mats[i].material.color = colors[3];
+}
